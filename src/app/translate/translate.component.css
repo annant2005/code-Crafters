@@ -1,0 +1,81 @@
+body{
+    padding: 15%;
+    background: linear-gradient(#80FFDB, #64DFDF, #48BFE3, #5390D9, #5E60CE);
+}
+.nav h1{
+    margin-top:0;
+    font-size: 60px;
+    margin-left: 30%;
+}
+.nav h1:hover{
+    font-size: 70px;
+    padding: 0;
+    transition: 0.2s;
+}
+    
+
+
+.nav .navsearch{
+    flex: 1;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav .navsearch input{
+   
+    flex: 1;
+    height: 30px;
+    border-right: 0;
+    border: 1px solid white;
+    margin-top: 5rem;
+
+}
+.Lang{
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Lang{
+    font-size:20px ;
+}
+.Lang input{
+    height: 30px;
+    border-right: 0;
+    border: 1px solid white;
+    margin-top: 5rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 5%;
+    
+
+}
+
+
+.nav .navsearch button{
+    height: 35px;
+    border-right: 0;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top:5rem;
+}
+.nav .navsearch button:hover{
+    width: 80px;
+    transition: 0.2s;
+}
+.outtext{
+    color: azure;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: large;
+    
+}
+.btn{
+    width: 7rem;
+    height: 2rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+}

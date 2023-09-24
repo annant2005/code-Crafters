@@ -1,7 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { TranslateComponent } from './translate/translate.component';
+import { InfoComponent } from './info/info.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path:'translate',
+    component:TranslateComponent
+  },
+  {
+    path:'',
+    component:InfoComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

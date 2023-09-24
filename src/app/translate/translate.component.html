@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderBoyz</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <h1>BhashaSwap</h1>
+        <form (submit)="submitForm()">
+        <div class="navsearch">
+            <input type="text" [(ngModel)]="userInput" name="input" placeholder=" Type in the data ">
+            <button type="submit">Convert</button>
+        </div>
+    </form>
+        <div class="Lang">
+            <label>Choose Language to convert into: </label>
+            <button class="btn" (click)="switchLanguage('en')">English</button>
+    <button class="btn" (click)="switchLanguage('hi')">Hindi</button>
+
+            
+        </div>
+    </nav>
+    <div class="outtext">{{ userInput | translate}}</div>
+    
+    
+    
+</body>
+
+</html>
