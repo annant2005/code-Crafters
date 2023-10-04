@@ -1,5 +1,12 @@
 {
-    "hello":"Hello World! This is a project by Code Crafters to convert English to Hindi  ",
-    "world":"world"
+   "hello":"Hello",
+    "world":"world",
+    "good afternoon":"good afternoon",
+    "delhi":"delhi",
+    "night":"night",
+    "india":"india",
+    "maharaja agrasen":"maharaja agrasen",
+    "english":"english",
+    "smart india hackathon":"smart india hackathon"
 
 }
